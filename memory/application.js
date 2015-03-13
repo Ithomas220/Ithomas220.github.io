@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var card_array = ["fish", "fish", "turtle", "turtle", "pig", "pig", "dog", "dog", "cat", "cat", "snake", "snake", "bird", "bird", "goat", "goat", "hamster", "hamster", "dragon", "dragon"];
+  var card_array = ["Touka", "Yoshimoro", "Hinami", "Kaneki", "Touka", "Rize", "Juzo", "Rize", "Yoshimoro", "Amon", "Juzo", "Hinami", "Kaneki", "Amon", "Uta", "Tsukiyama", "Mado", "Tsukiyama", "Uta", "Mado"];
   var click_count = 0;
   var click_1 = 'nothing';
   var click_2 = 'nothing';
