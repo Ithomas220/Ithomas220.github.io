@@ -5,11 +5,13 @@ $(document).ready(function(){
   //when the player clicks on the 'guess' button
   $('button').on('click', function(){
     //save their guess as a variable
-    
+    var userGuess 
     
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
-    
+    if (userGuess) = number {
+      
+    }
       //what happens if the guess is correct?
       
     //if the user guessed too high...
