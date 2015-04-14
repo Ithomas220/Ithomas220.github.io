@@ -9,8 +9,8 @@ $(document).ready(function(){
     console.log($('input').val(), $('input').val)
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
-    if (userGuess) = number {
-      
+    if (userGuess === number) {
+      console.log("heyo")
     }
       //what happens if the guess is correct?
       
