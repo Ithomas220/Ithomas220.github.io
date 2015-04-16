@@ -19,7 +19,7 @@ $(document).ready(function(){
       click_2 = $(this).find('p').text();
       $(this).find('p').addClass('clicked');
       if(click_1 == click_2){
-        $('.clicked').css('color', 'blue').removeClass('clicked');
+        $('.clicked').removeClass('clicked');
       }
       else{//if not the same then disappear
          setTimeout(function(){$('.clicked').css('opacity', '0').removeClass('clicked')}, 1000);
